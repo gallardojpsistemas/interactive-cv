@@ -1,4 +1,12 @@
+import { useState } from "react";
+
 const Contact = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        setIsOpen(true);
+    };
     return (
         <section
             id="contact"
@@ -15,7 +23,10 @@ const Contact = () => {
             </p>
 
             {/* Formulario */}
-            <form className="flex flex-col gap-2 sm:gap-3 md:gap-4 max-w-xs sm:max-w-sm md:max-w-md mx-auto mb-4 sm:mb-6 md:mb-8 lg:mb-12">
+            <form
+                onSubmit={handleSubmit}
+                className="flex flex-col gap-2 sm:gap-3 md:gap-4 max-w-xs sm:max-w-sm md:max-w-md mx-auto mb-4 sm:mb-6 md:mb-8 lg:mb-12"
+            >
                 <input
                     type="text"
                     placeholder="Nombre"
@@ -164,6 +175,31 @@ const Contact = () => {
                     </div>
                 </a>
             </div>
+
+            {/* Modal */}
+            {isOpen && (
+                <div className="fixed inset-0 flex items-center justify-center bg-black/50 backdrop-blur-sm z-50 px-4">
+                    <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl max-w-md w-full p-6 text-center animate-fade-in">
+
+                        <h3 className="text-xl sm:text-2xl font-bold mb-4">
+                            ¡Gracias por tu mensaje!
+                        </h3>
+
+                        <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-6">
+                            Gracias por visitar mi portfolio y por tu interés.
+                            <br />
+                            Te responderé lo antes posible.
+                        </p>
+
+                        <button
+                            onClick={() => setIsOpen(false)}
+                            className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition-all shadow-md hover:shadow-lg active:scale-95"
+                        >
+                            Cerrar
+                        </button>
+                    </div>
+                </div>
+            )}
         </section>
     );
 };
