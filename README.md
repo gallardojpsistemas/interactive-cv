@@ -1,26 +1,63 @@
-# CV Interactivo - Juan Gallardo
+# Interactive CV
 
-Este es un sitio web interactivo desarrollado con Next.js que presenta mi currículum vitae de una manera más dinámica y moderna que un CV tradicional. Está diseñado para ser responsive, accesible y fácil de navegar, y busca reflejar tanto mis habilidades técnicas como mi estilo visual como desarrollador frontend.
+A modern, interactive portfolio site built with Next.js that presents my resume in a dynamic, visually engaging way. Designed to be responsive, accessible, and easy to navigate, reflecting both my technical skills and frontend development style.
 
-## 🚀 Tecnologías utilizadas
+**Live Demo (no download required):**  
+[https://portfolio-cv-six-flame.vercel.app](https://portfolio-cv-six-flame.vercel.app)
 
-- [Next.js](https://nextjs.org/)
-- [React](https://react.dev/)
-- [Tailwind](https://tailwindcss.com/)
-- [Vercel](https://vercel.com/)
+---
 
-## 📦 Instalación y ejecución local
+## Author
+
+**Juan Gallardo**  
+GitHub: [https://github.com/gallardojpsistemas](https://github.com/gallardojpsistemas)  
+Username: @gallardojpsistemas  
+
+Portfolio project — built to showcase backend development and system design skills.
+
+---
+
+## Features
+
+- **Hero** — Profile photo, headline, short bio, and quick links (GitHub, LinkedIn, email, CV)
+- **About** — Bio, technical skills (React/Next.js, Tailwind, TypeScript, APIs, DBs, Git/CI-CD), soft skills, and languages
+- **Experience** — Work history with detailed cards: role, dates, description, tech stack, and highlights
+- **Contact** — Message and form UI with social links (GitHub, LinkedIn, email)
+
+### Technical Highlights
+
+- Scroll snapping for full-page sections
+- Scroll-triggered animations (Framer Motion)
+- Sticky navigation with smooth scrolling
+- Dark mode support
+- Fully responsive layout
+
+---
+
+## Tech Stack
+
+- Next.js 15 (Pages Router)
+- React 19
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Vercel (hosting)
+
+---
+
+## Getting Started
 
 ```bash
-# Clona el repositorio
-git clone https://github.com/gallardojpsistemas/portfolio-cv
+# Clone the repository
+git clone https://github.com/gallardojpsistemas/interactive-cv.git
 
-# Entra a la carpeta del proyecto
-cd portfolio-cv
+# Enter the project directory
+cd interactive-cv
 
-# Instala las dependencias
+# Install dependencies
 npm install
 
-# Ejecuta el servidor de desarrollo
+# Run the development server
 npm run dev
 ```
+
