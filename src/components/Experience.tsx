@@ -1,36 +1,44 @@
 const Experience = () => {
     const experiences = [
         {
-            title: "Frontend - InboxVIP",
-            period: "Agosto 2023 - Presente",
-            description: "Desarrollo de nuevas interfaces y componentes reutilizables, corrección de bugs y optimización de vistas con integración de APIs RESTful.",
-            tech: ["Next.js", "TypeScript", "Tailwind CSS", "SQL"],
-            type: "Trabajo Actual (Contractor)",
-            highlights: ["APIs RESTful", "Componentes reutilizables", "Optimización"]
-        },
-        {
-            title: "Backend - Macro Intell SA",
-            period: "Septiembre 2022 - Presente",
-            description: "Diseño e implementación de APIs escalables trabajando en arquitectura de microservicios con enfoque modular y metodologías ágiles.",
-            tech: ["Nest.js", "MongoDB", "AWS", "Docker"],
+            title: "Frontend Developer - Biolink",
+            period: "Ago 2025 - Actualidad",
+            description: "Responsable de la evolución de la plataforma en producción. Refactorización del codebase, mejora de performance y desarrollo de nuevas funcionalidades. Implementación de scrapers en Python para extracción automatizada de datos desde redes sociales e integración con backend y base de datos SQL.",
+            tech: ["Next.js", "TypeScript", "Node.js", "SQL", "Python", "Scrapers"],
             type: "Trabajo Actual",
-            highlights: ["Microservicios", "APIs escalables", "Scrum"]
+            highlights: ["Producción", "Refactorización", "Scrapers en Python", "Performance"]
         },
         {
-            title: "QA Automation",
-            period: "Enero 2022 - Agosto 2023",
-            description: "Creación y automatización de casos de prueba funcionales, generación de reportes y procesos de integración continua (CI).",
-            tech: ["Selenium", "Java", "Cucumber", "TestNG", "Maven", "Postman"],
+            title: "Backend Developer & Tech Lead - Macro Intell SA (AgroCarteira)",
+            period: "Jun 2025 - Feb 2026",
+            description: "Lideré un equipo de 3 developers backend en el desarrollo de una billetera digital para el mercado brasileño (pagos PIX, boletos, tarjeta y P2P). Diseñé y mantuve una arquitectura de 12 microservicios con NestJS, incluyendo despliegues automáticos en producción vía GitLab CI/CD, Docker y Portainer.",
+            tech: ["NestJS", "TypeScript", "MongoDB", "Redis", "Docker", "JWT"],
+            type: "Full-time",
+            highlights: ["Tech Lead", "12 Microservicios", "CI/CD", "Arquitectura escalable"]
+        },
+        {
+            title: "Backend Developer - Macro Intell SA (TodoAgro)",
+            period: "Sep 2022 - Jun 2025",
+            description: "Desarrollo backend de marketplace agro con arquitectura de 15 microservicios. Modelado y optimización de esquemas NoSQL en MongoDB mejorando rendimiento en un 20%. Implementación de pipelines CI/CD con Jenkins y Docker, y autenticación con JWT.",
+            tech: ["Node.js", "Express", "MongoDB", "Docker", "Jenkins", "Redis", "JWT"],
+            type: "Full-time",
+            highlights: ["15 Microservicios", "Optimización 20%", "Marketplace", "CI/CD"]
+        },
+        {
+            title: "Frontend Developer - InboxVIP",
+            period: "Ago 2023 - 2025",
+            description: "Único frontend responsable de una aplicación de mensajería privada por suscripción. Desarrollo de componentes reutilizables, refactorización de código legacy y creación de landing pages integradas con backend y base de datos SQL.",
+            tech: ["Next.js", "TypeScript", "Tailwind CSS", "SQL"],
+            type: "Contractor",
+            highlights: ["Responsable único", "Refactorización", "Integración APIs"]
+        },
+        {
+            title: "QA Automation Engineer",
+            period: "Ene 2022 - May 2025 (Part-time)",
+            description: "Automatización de pruebas funcionales y testing de APIs REST. Integración de reportes automáticos en pipelines CI reduciendo tiempos de validación manual en cada release.",
+            tech: ["Selenium", "Cucumber", "Java", "CI/CD", "Postman"],
             type: "Freelance",
-            highlights: ["Automatización", "CI/CD", "Testing funcional"]
-        },
-        {
-            title: "Infraestructura en Redes - Municipalidad",
-            period: "Agosto 2020 - Agosto 2022",
-            description: "Administración de Firewalls y control de contenido, monitoreo de servidores y máquinas virtuales en la Subsecretaría de Sistemas.",
-            tech: ["Mikrotik", "Unifi", "Fortigate", "Proxmox", "Cambium"],
-            type: "Sector Público",
-            highlights: ["Administración de red", "Virtualización", "Seguridad"]
+            highlights: ["Automatización", "Testing APIs", "CI/CD"]
         }
     ];
 

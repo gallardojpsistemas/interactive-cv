@@ -17,7 +17,7 @@ const About = () => {
         Tengo experiencia tanto en desarrollo <b>Frontend</b> como <b>Backend</b> y <b>QA Automation</b>.
         <br className="hidden sm:block" />
         <span className="sm:hidden"> </span>
-        Hablo <b>inglés avanzado</b> y <b>portugués intermedio</b>, lo que me permite
+        Hablo <b>inglés</b> y <b>portugués avanzado</b>, lo que me permite
         trabajar en equipos internacionales y mantenerme actualizado con la documentación técnica.
       </p>
 

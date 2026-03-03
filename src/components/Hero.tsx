@@ -31,7 +31,7 @@ const Hero = () => {
                 <br className="hidden sm:block" />
                 También tengo experiencia en Backend con <b>Node.js</b> y QA Automation.
                 <br className="hidden sm:block" />
-                Desde Corrientes, Argentina, construyo interfaces performantes y escalables.
+                Construyo interfaces performantes y escalables.
             </p>
 
             {/* Enlaces sociales */}
